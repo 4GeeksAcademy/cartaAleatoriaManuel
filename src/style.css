@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cardheart {
+  margin-top: auto;
+  width: 295px;
+  height: 442px;
+  background-color: azure;
+  border-radius: 20px;
+}
+.item1 {
+  display: flex;
+  justify-content: start;
+  font-size: 100px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.number {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+}
+.item2 {
+  display: flex;
+  justify-content: end;
+  font-size: 100px;
+  margin-right: 20px;
+  margin-top: -20px;
+}
