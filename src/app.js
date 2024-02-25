@@ -27,17 +27,22 @@ window.onload = function() {
     }
   }
 
-  const btn = document.getElementById("reload");
+  const boton = document.getElementById("reload");
 
   function change() {
     return window.location.reload();
   }
 
-  btn.addEventListener("click", change);
+  boton.addEventListener("click", change);
 
   setTimeout(function() {
     setTimeout(window.location.reload());
   }, 5000);
+
+  setTimeout(function() {
+    let mensajeDiv = document.getElementById("mensajeAlert");
+    mensajeDiv.textContent = "NEW RANDOM CARD";
+  }, 3000);
 
   getRandomCard();
 };
