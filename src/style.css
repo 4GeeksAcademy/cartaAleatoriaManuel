@@ -30,6 +30,8 @@ body {
   display: flex;
   justify-content: end;
   font-size: 100px;
-  margin-right: 20px;
-  margin-top: -20px;
+  margin-left: 200px;
+  margin-top: -30px;
+
+  transform: rotate(180deg);
 }
